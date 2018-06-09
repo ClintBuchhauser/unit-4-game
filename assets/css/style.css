@@ -1,0 +1,51 @@
+body {
+    background-image: url(../images/space.jpg)
+}
+
+.flexbox { 
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.block1 {
+    flex: 1;
+}
+
+.block2 {
+    flex: 5; 
+}
+
+h1 {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.crystalbox {
+    width: 812px;
+    margin: 0px auto;
+}
+
+.crystal {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
